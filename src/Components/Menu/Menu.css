@@ -1,0 +1,7 @@
+.menu {
+  /* display: flex;
+    gap: 20px;
+    list-style:none;
+    justify-content: right;*/
+    float: right;
+  }
