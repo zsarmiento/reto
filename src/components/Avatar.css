@@ -1,0 +1,12 @@
+.avatar {
+    height: 80px;
+    border-radius: 50%;
+    border-inline-color: black;
+}
+.bloque{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
