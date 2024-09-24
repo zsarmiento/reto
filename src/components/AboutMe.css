@@ -7,13 +7,23 @@
 }
 
 .titles{
-    border-style: double;
-    padding: 0px 100px 0px 100px;
-    table-layout: auto;
+    flex-grow: 1; /* Los componentes crecen de manera uniforme */
+    border-left: 1px solid black; /* Añade un borde negro entre los componentes */
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 .li{
-    border-style: double;
-    border-color: black;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid black; /* Línea divisoria entre elementos */
+    text-align: left;
     list-style: none;
+}
+
+.ulo{
+ padding-left: 0px;
+ margin:0px;
 }

@@ -4,7 +4,7 @@ export const Projects =()=>{
 
         <div className ="titles">
         <h2>Projects</h2>
-        <ul>
+        <ul className="ulo">
             <li className="li"><a href="" >HTML Only portfolio</a></li>
             <li className="li"><a href="" >Calculator</a></li>
             <li className="li"><a href="" >Quiz App</a></li>
