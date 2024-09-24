@@ -1,9 +1,10 @@
 export const Review =(props)=>{
-    console.log("hola mundo")
+  console.log(props.datos.comment);
     return(
         <div>
-
-        <h1>hola mundo</h1>
+            <p>{props.datos.comment}</p>
+            <p>{props.datos.autor}</p>
+            <p>{props.datos.role}</p>
         </div>
     )
 }

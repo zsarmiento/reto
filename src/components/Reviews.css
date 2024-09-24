@@ -1,0 +1,16 @@
+.generaldiv{
+    display:flex;
+    list-style: none;
+    justify-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+   
+    
+}
+
+.lireviews{
+    border-radius: 5%;
+    border-style:double;
+    padding: 20px 20px 20px 20px;
+}
