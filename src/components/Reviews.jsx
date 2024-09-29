@@ -20,12 +20,12 @@ export const Reviews=()=>{
     ]
     
     return(
-        <div >
-            <h3>Reviews from my teachers</h3>
+        <div className="otro">
+            <h3 styles={{padding:'20px 10px 20px 10px'}}>Reviews from my teachers</h3>
            <ul className="generaldiv">
-           <li className="lireviews"><Review datos={data[0]}/></li> 
-           <li className="lireviews"><Review datos={data[1]}/></li> 
-            <li className="lireviews"><Review datos={data[2]}/></li>
+                <li className="lireviews"><Review datos={data[0]}/></li> 
+                <li className="lireviews"><Review datos={data[1]}/></li> 
+                <li className="lireviews"><Review datos={data[2]}/></li>
             </ul>
         </div>
     )
