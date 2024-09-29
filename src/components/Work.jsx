@@ -16,7 +16,7 @@ export const Work =()=>{
 
     return(
         <div className="titles">
-            <h2 >Work Experience</h2>
+            <h2 className="project">Work Experience</h2>
             <WorkExperience  work={trabajos[0]} />
             <WorkExperience  work={trabajos[1]} />
         </div>

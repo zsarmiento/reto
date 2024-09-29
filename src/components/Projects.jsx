@@ -3,7 +3,7 @@ export const Projects =()=>{
     return(
 
         <div className ="titles">
-        <h2 styles={{paddingLeft: '10px'}}>Projects</h2>
+        <h2 className="project">Projects</h2>
         <ul className="ulo">
             <li className="li"><a href="" >HTML Only portfolio</a></li>
             <li className="li"><a href="" >Calculator</a></li>

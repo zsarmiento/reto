@@ -11,13 +11,23 @@
 }
 
 .lireviews{
+   display: flex;
     border-radius: 20%;
     border-style:double;
     padding: 20px 20px 20px 20px;
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    align-content: center;
+    font-size: large;
 }
 
 .otro{
    
     border-color:black;
     border-style: double;
+}
+
+.h3{
+    padding-left: 10px;
 }
