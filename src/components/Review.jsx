@@ -1,5 +1,5 @@
 export const Review =(props)=>{
-  console.log(props.datos.comment);
+
     return(
         <div>
             <p>{props.datos.comment}</p>
