@@ -1,10 +1,10 @@
-export const Review =(props)=>{
+export const Review =({comment,autor,role})=>{
 
     return(
         <div>
-            <p>{props.datos.comment}</p>
-            <p>{props.datos.autor}</p>
-            <p>{props.datos.role}</p>
+            <p>{comment}</p>
+            <p>{autor}</p>
+            <p>{role}</p>
         </div>
     )
 }
