@@ -28,8 +28,8 @@ export const Reviews=()=>{
         <ul className="generaldiv">
             {
                 data.map((data)=>(
-                   <li className="lireviews"> <Review
-                        key={data.id}
+                   <li className="lireviews" key={data.id}> 
+                   <Review
                         comment={data.comment}
                         autor={data.autor}
                         role={data.role}
