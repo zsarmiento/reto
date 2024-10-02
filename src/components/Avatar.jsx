@@ -1,5 +1,5 @@
-import './Avatar.css'
 
+import './Stylesheet.css'
 export const Avatar = () =>{
     return(
         <div className='bloque'>

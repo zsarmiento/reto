@@ -1,16 +1,4 @@
-/*import './AboutMe.css'
-export const WorkExperience =(props)=>{
-  /* return(
-        <div >
-            <h3 className="project">{props.work.wp}</h3>
-            <p className="project">{props.work.dc}</p>
-            <p className="project"><a href="">visit my githup repo at {props.work.ghl}</a></p>
-        </div>
-    )
-}*/
-
-
-
+import './AboutMe.css'
 
 export const WorkExperience = ({ puesto, empresa, años }) => {
   return (

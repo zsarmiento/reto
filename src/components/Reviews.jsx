@@ -1,5 +1,5 @@
 import { Review } from "./Review"
-import './Reviews.css'
+import './Stylesheet.css'
 export const Reviews=()=>{
     const data =[
         {
@@ -21,17 +21,7 @@ export const Reviews=()=>{
             role: "QA LSS Lead",
         }
     ]
-    /*
-    return(
-        <div className="otro">
-            <h3 className="h3">Reviews from my teachers</h3>
-           <ul className="generaldiv">
-                <li className="lireviews"><Review datos={data[0]}/></li> 
-                <li className="lireviews"><Review datos={data[1]}/></li> 
-                <li className="lireviews"><Review datos={data[2]}/></li>
-            </ul>
-        </div>
-    )*/
+
    return(
     <div className="otro">
         <h3 className="h3">Reviews From my teachers</h3>

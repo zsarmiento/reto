@@ -1,8 +1,7 @@
 import { Avatar } from "./Avatar"
 import { Menu } from "./Menu"
 import { Nombre } from "./Nombre"
-import './Header.css'
-
+import './Stylesheet.css'
 export const Header=()=>{
     return(
         <div className="header">

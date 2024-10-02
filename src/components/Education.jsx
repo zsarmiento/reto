@@ -1,4 +1,4 @@
-import './AboutMe.css'
+import './Stylesheet.css'
 export const Education = ()=>{
     return(
         <div className ="titles">

@@ -15,16 +15,6 @@ export const Work =()=>{
             githubLink: "github2.com",
         }
     ]
-/*
-    return(
-        <div className="titles">
-            <h2 className="project">Work Experience</h2>
-            <WorkExperience  work={trabajos[0]} />
-            <WorkExperience  work={trabajos[1]} />
-        </div>
-    )
-}
-    */
 
 return(
     <div className="titles">

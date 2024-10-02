@@ -1,8 +1,8 @@
-import './Menu.css'
+import './Stylesheet.css'
 export const Menu =()=>{
     return(
         <div>
-            <ul className = "ul">
+            <ul className = "ulmenu">
                 <li>
                 <a href="">Home</a>
                 </li>

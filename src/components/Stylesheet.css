@@ -1,0 +1,114 @@
+.avatar{
+    height: 80px;
+    border-radius: 50%;
+    border-inline-color: black;
+}
+.bloque{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+.aboutme{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    border-color:black;
+    border-style: double;
+}
+
+.titles{
+    flex-grow: 1; /* Los componentes crecen de manera uniforme */
+    border-left: 1px solid black; /* Añade un borde negro entre los componentes */
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.li{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid black; /* Línea divisoria entre elementos */
+    text-align: left;
+    list-style: none;
+}
+
+.ulo{
+ padding-left: 0px;
+ margin:0px;
+}
+
+.project{
+    padding-left: 10px;
+}
+.header{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    border-style: double;
+
+}
+.ulmenu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+.pnombre{
+    padding: 100px;
+    margin: 0;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.generaldiv{
+    display:flex;
+    list-style: none;
+    justify-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    border-color: black;
+   
+    
+}
+
+.lireviews{
+   display: flex;
+    border-radius: 20%;
+    border-style:double;
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    align-content: center;
+    font-size: large;
+}
+
+.otro{
+   
+    border-color:black;
+    border-style: double;
+}
+
+.h3{
+    padding-left: 10px;
+}
+.allroll{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: double;
+ }
