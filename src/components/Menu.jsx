@@ -3,16 +3,16 @@ export const Menu =()=>{
     return(
         <div>
             <ul className = "ulmenu">
-                <li>
+                <li className="limenu">
                 <a href="">Home</a>
                 </li>
-                <li>
+                <li className="limenu">
                 <a href="">Projects</a>
                 </li>
-                <li>
+                <li className="limenu">
                 <a href="">Articles</a>
                 </li>
-                <li>
+                <li className="limenu">
                 <a href="">Contact</a>
                 </li>
             </ul>

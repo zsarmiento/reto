@@ -1,7 +1,9 @@
 .avatar{
     height: 80px;
     border-radius: 50%;
-    border-inline-color: black;
+    border-inline-color:rgba(148, 20, 160, 0.252);
+   border-style: groove;
+
 }
 .bloque{
     padding-top: 10px;
@@ -63,6 +65,16 @@
     font-size: 25px;
     
 }
+.limenu{
+    border-style: groove;
+    border-radius:15%;
+    width:100px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+   background-color: rgba(148, 20, 160, 0.252);
+  
+}
 .pnombre{
     padding: 100px;
     margin: 0;
@@ -92,6 +104,7 @@
     justify-content: center;
     align-content: center;
     font-size: large;
+    background-color: rgba(148, 20, 160, 0.252);
 }
 
 .otro{
